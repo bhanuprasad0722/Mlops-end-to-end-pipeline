@@ -9,6 +9,7 @@ from nltk.corpus import stopwords
 nltk.download('stopwords')
 nltk.download('punkt_tab')
 
+
 # creating a log directory to handle all logs
 log_dir = 'logs'
 os.makedirs(log_dir,exist_ok=True)
